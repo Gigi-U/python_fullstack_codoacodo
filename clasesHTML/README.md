@@ -1,6 +1,11 @@
+TEMAS:
+1) "receta" - clases 1 y 2
+2) "multimediaYtablas" - clase 3
+
+TIPS:
 <!-- para comentar  sin tenes q escribir la etiqueta, hago crtl + } y se hace solo, ara deshacer marco lo-->
 
-para que se me acomode el codigo a la pantalla: alt + z
+para acomodar el codigo a la pantalla: alt + z
 
 <dl>= lista de descripción
 <dt>= términos de descripción
