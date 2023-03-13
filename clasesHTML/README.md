@@ -1,8 +1,10 @@
-TEMAS:
+🚀TEMAS
 1) "receta" - clases 1 y 2
 2) "multimediaYtablas" - clase 3
 
-TIPS:
+
+
+🚀TIPS:
 <!-- para comentar  sin tenes q escribir la etiqueta, hago crtl + } y se hace solo, ara deshacer marco lo-->
 
 para acomodar el codigo a la pantalla: alt + z
