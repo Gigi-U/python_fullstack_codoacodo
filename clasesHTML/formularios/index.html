@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase04</title>
+</head>
+<body>
+    <header align="center">
+        <h1>FORMULARIO</h1>
+    </header>
+    <form action="mostrar_datos.html" method="GET" target="_blank" >
+        <h2>Alta Usuario:</h2>
+
+        <label for="nam">
+            Nombre: 
+        </label>
+        <input type="text" placeholder="Nombre" id="nam" name="name">
+        <br>
+        <br>
+
+        <label for="ape">
+            Apellido: 
+        </label>
+        <input type="text" placeholder="Apellido" id="ape" name="surname">
+        <br>
+        <br>
+
+        <label for="pas">
+            Contraseña: 
+        </label>
+        <input type="password" placeholder="******" id="pas" name="password">
+        <br>
+        <br>
+
+        <label for="tel">
+            Teléfono: 
+        </label>
+        <input type="tel" placeholder="sin guión o 15" id="tel" name="phone">
+        <br>
+        <br>
+
+        <label for="em">
+            E-mail: 
+        </label>
+        <input type="email" placeholder="ejemplo@gmail.com" id="em" name="email">
+        <br>
+        <br>
+
+        <label for="birth">
+            Fecha de nacimiento: 
+        </label>        
+        <input type="date" id="birth" name="birthday">
+        <br>
+        <br>
+
+        <label for="img">
+            Foto de perfil: 
+        </label>        
+        <input type="file" placeholder="Enviar" id="img" name="image">
+        <br>
+        <br>
+
+        <label for="com">
+            Sobre mi: 
+        </label>        
+        <br>
+        <textarea placeholder="..." id="" cols="30" rows="5" id="com" name="comment"></textarea>
+        <br>
+        <br>
+
+        <label for="age">
+            Soy mayor de edad: 
+        </label>        
+        <input type="checkbox" id="age" name="age">
+   
+        <label for="new">
+            Perfil público: 
+        </label>        
+        <input type="checkbox" id="new" name="profile">
+        <br>
+        <br>
+
+        <input type="submit" value="Crear perfil" style="background-color: rgb(153, 212, 155); color:rgb(0, 0, 0)">
+        
+        <input type="reset" value="Limpiar" style="background-color: rgb(255, 95, 95); color:white">
+
+    </form>    
+</body>
+</html>
