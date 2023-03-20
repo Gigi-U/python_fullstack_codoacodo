@@ -1,0 +1,25 @@
+*{
+    background-color: rgb(236, 234, 232);
+}
+.encabezado{
+    font-size:25px;
+    color:rgb(85, 66, 105);
+    font-family:'Courier New', Courier, monospace;
+}
+p{
+    color:rgb(54, 96, 135);
+    font-family: Courier;
+}
+#primerParrafo{
+    font-weight: bolder;
+}
+#conBorde{
+    color:rgb(93, 176, 255);
+    border: 1px solid black;   
+    border-radius: 5px;
+    border-color: rgb(255, 98, 98);
+    background-color: blueviolet;
+}
+.estiloDeFuente {
+    font-style: italic;
+}

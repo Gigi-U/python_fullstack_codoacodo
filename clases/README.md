@@ -30,3 +30,20 @@ El elemento HTML <dl> representa una lista de descripción. El elemento incluye 
 
 <p>© GiUrriza 2023 <a href="https://github.com/Gigi-U" target="_blank"><b>github</b></a></p>
 el target="_blank" hace q no me abra en link en la misma pagina
+
+p*3 = se me hacen 3 parrafos al hilo
+
+<span> contenedor que funciona en linea
+<div> contenedor que funciona en bloque
+
+ATRIBUTOS GLOBALES:
+hidden (oculto)
+style
+class
+id
+title
+tabindex="numero"
+translate="yes/no"
+lang="es"
+spellcheck="true/false"
+draggable="true/false"
