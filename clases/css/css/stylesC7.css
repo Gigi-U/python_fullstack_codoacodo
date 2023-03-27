@@ -30,9 +30,9 @@ main button{
     width:25px;
 }
 main button a{
-    text-decoration:none; color:rgb(0, 0, 0);
+    text-decoration: none; 
+    color:rgb(0, 0, 0);
     font-weight: bolder;
-    background-color: none;
     font-family:'Courier New', Courier, monospace;
 }
 .articulo{
