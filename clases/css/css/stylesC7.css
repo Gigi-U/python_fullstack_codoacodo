@@ -31,8 +31,7 @@ main{
     margin:10px 0px 10px 0px;
     border-radius: 20px;
     box-shadow: 10px 5px 5px rgba(50, 50, 50, 0.75);
-
-
+    text-align: center;
 }
 .articulo span{
     display:inline-block;
