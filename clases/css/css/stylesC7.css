@@ -33,6 +33,7 @@ main button a{
     text-decoration:none; color:rgb(0, 0, 0);
     font-weight: bolder;
     background-color: none;
+    font-family:'Courier New', Courier, monospace;
 }
 .articulo{
     background-color: rgba(58, 125, 214, 0.816);
