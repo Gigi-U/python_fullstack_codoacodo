@@ -22,6 +22,16 @@ header h3{
 main{
     margin: 25px auto;
     width:95%;
+    text-align: center;
+
+}
+main button{
+    background-color: none;
+    width:25px"
+}
+main button a{
+    text-decoration:none; color:rgb(0, 0, 0);
+    font-weight: bolder;
 }
 .articulo{
     background-color: rgba(58, 125, 214, 0.816);
@@ -31,7 +41,6 @@ main{
     margin:10px 0px 10px 0px;
     border-radius: 20px;
     box-shadow: 10px 5px 5px rgba(50, 50, 50, 0.75);
-    text-align: center;
 }
 .articulo span{
     display:inline-block;
