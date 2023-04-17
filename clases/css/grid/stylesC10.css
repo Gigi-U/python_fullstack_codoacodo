@@ -1,0 +1,144 @@
+*{
+    background-color: black;
+}
+
+.container {
+    display:grid;
+    grid-template-columns: auto auto auto;
+/*  grid-template-columns: 400px auto 1fr;*/
+/* grid-template-columns: 1fr 1fr 1fr*/    
+/* grid-template-columns:400px 150px 250px*/    
+
+    border:10px solid rgb(221, 54, 168);
+    row-gap: 10px;
+    column-gap: 5px;
+    /* o se puede poner directamente gap:*/    
+    padding:10px ;
+    gap: 20px;
+    box-shadow: rgba(242, 0, 255, 0.35) 0px 5px 15px;
+}
+.container div{    
+    border-radius: 30px;
+    place-content: center;
+    text-align: center;
+
+}
+
+.grid-item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;  
+}
+
+.grid-item1 img{
+    image-resolution: 95%;
+    border-radius: 25px;
+    width: 100%;
+
+}
+.cristals {   
+    display: flex;
+    width:98%;
+    height: auto;
+    display: flex;
+    flex-wrap:wrap;
+
+}
+
+.cristals img{   
+    border-radius: 25px;
+    width: 100%;
+
+}
+.itemarea-contenedor {
+    grid-area: 3 / 2 / span 3 / span 2 ;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(124, 63, 162, 0.479);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+.itemarea-contenedor div{
+    height:auto;
+    margin:20px;
+    height: max-content;
+
+}
+.itemarea-contenedor div p{
+    font-size: 15px;
+    font-weight: bolder;
+    margin:10px;
+    background-color:rgba(124, 63, 162, 0.479);
+    color: rgb(255, 255, 255);
+    display: table-cell;
+}
+
+.grid-item2 {
+    grid-area: 2 / 1 / span 10 / span 1 ;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(93, 82, 82);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+.grid-item2 div{
+    height:auto;
+    border:2px none rgb(42, 49, 49);
+    margin:20px;
+    border-radius:0px;
+
+}
+.grid-item2 div p{
+    font-size: 25px;
+    font-weight: bolder;
+    margin:10px;
+    color: rgb(156, 41, 41);
+}
+.grid-item3{    
+    border-radius: 30px;
+    place-content: center;
+    grid-area: 6 / 2 / span 6 / span 2 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.grid-item3 img{
+    border:10px solid rgb(255, 255, 255);
+    margin:20px;
+    place-content: center;
+    text-align: center;
+    border-radius:40px;
+    width: 20%;
+    box-shadow: rgba(78, 75, 75, 0.56) 0px 22px 70px 4px;
+}
+    
+
+.item4-footer{
+    align-items: center;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: blueviolet;
+    border-radius:0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+.item4-footer p{
+    background-color: rgba(137, 43, 226, 0);
+}
+
+
+
+
+
+
+
+
