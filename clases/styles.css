@@ -5,7 +5,8 @@
     font-family: 'Rubik', sans-serif;
     color:black    
 
-}
+}   
+
 header{
     background-color: rgba(255, 255, 255, 0.289);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -15,7 +16,7 @@ header h1{
     font-family: 'Rubik', sans-serif;    font-weight:lighter;
     color: rgb(255, 255, 255);
     font-size: 4rem;
-    text-shadow: rgba(135, 132, 119, 0.354) 1px 0 10px;
+    text-shadow: rgba(0, 0, 0, 0.354) 1px 0 10px;
 }  
 
 h2{
@@ -29,6 +30,9 @@ header h3{
 }
 main{
     margin-top: 30px;
+    display:flex;
+    flex-direction: column; 
+    flex-wrap: wrap;   
 }
 main h2{
     color: black;
@@ -46,3 +50,7 @@ button a{
     color:rgba(255, 255, 255, 0.367)
 }
 
+.bootYjs{
+    display:inline-flex;
+    align-items:center;
+}
