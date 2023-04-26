@@ -106,7 +106,21 @@ document.write(`★★★★★★★★ <br> <br>`)
 //hecho en el anterior
 
 //& 12. Escribe un programa que pida una frase y escriba cuántas veces aparecen cada una de las vocales
- 
+let vocalesRepetidas={};
+
+vocalesPresentes.forEach(e => {
+    vocalesRepetidas[e]=(vocalesRepetidas[e]||0)+1;               
+});         
+
+for (let e in vocalesRepetidas){
+    console.log(document.write(`La frase "${frase2}" tiene:  ${vocalesRepetidas[e]} ${e}<br>`));
+}
+if (vocalesPresentes.length < 1 ){
+    console.log(document.write(`La frase "${frase2}" no tiene vocales.<br> <br>`));
+}    
+
+
+
 
 //& 13. Escribe un programa que pida un número y nos diga si es divisible por 2, 3, 5 o 7 (sólo hay que comprobar si lo es por uno de los cuatro)
 
