@@ -14,7 +14,7 @@ document.write(`★★★★★★★★ <br> <br>`)
 
 //& 4. Escribe un programa de dos líneas que pida el nombre del usuario con un prompt y escriba un texto que diga “Hola nombreUsuario”
 
-let persona = prompt("Por favor ingresa tu nombre");
+let persona = prompt("SALUDO.Por favor ingresa tu nombre");
 if (persona != null) { document.write("Hola " + persona + "!" + "<br>"+ "<br>");}
 document.write(`★★★★★★★★ <br> <br>`)
 
@@ -52,18 +52,18 @@ if (num1>num2 && num1>num3){
 document.write(`★★★★★★★★ <br> <br>`)
 
 //& 8. Escribe un programa que pida un número y diga si es divisible por 2 
-let esDivisible = parseInt(prompt("¿Es Divisible? Por favor ingresa un nuevo número:"));
+let esDivisiblePorDos = parseInt(prompt("¿Divisible por 2?Ingresa un nuevo número:"));
 
-if(esDivisible%2 ==0){
-    document.write(`El Número ${esDivisible} SÍ es divisible <br> <br>`)
+if(esDivisiblePorDos%2 ==0){
+    document.write(`El Número ${esDivisiblePorDos} SÍ es divisible <br> <br>`)
 } else{
-    document.write(`El Número ${esDivisible} NO es divisible <br> <br>`)
+    document.write(`El Número ${esDivisiblePorDos} NO es divisible <br> <br>`)
 }
 document.write(`★★★★★★★★ <br> <br>`)
 
 //& 9. Escribe un programa que pida una frase y escriba cuantas veces aparece la letra a 
 
-let frase = prompt("Contador de Letra A: Ingresa una frase: ");
+let frase = prompt("Cuantas A tiene. Ingresa una frase: ");
 let letra="a";
 let cuentaLetra=0;
 
@@ -81,7 +81,7 @@ document.write(`★★★★★★★★ <br> <br>`)
 
 //& 10. Escribe un programa que pida una frase y escriba las vocales que aparecen 
 
-let frase2 = prompt("VOCALES: Ingresa una nueva frase: ");
+let frase2 = prompt("Cuantas Vocales tiene: Ingresa una nueva frase: ");
 let vocalesPresentes=[];
 let contadorVocales=0;
 
@@ -118,13 +118,32 @@ for (let e in vocalesRepetidas){
 if (vocalesPresentes.length < 1 ){
     console.log(document.write(`La frase "${frase2}" no tiene vocales.<br> <br>`));
 }    
-
-
-
+document.write(`★★★★★★★★ <br> <br>`)
 
 //& 13. Escribe un programa que pida un número y nos diga si es divisible por 2, 3, 5 o 7 (sólo hay que comprobar si lo es por uno de los cuatro)
+let esDivisible = parseInt(prompt("¿Divisible por 2/3/5/7?Ingresa un número"));
+
+if(esDivisible%2===0 ||esDivisible%3===0 ||esDivisible%5===0  ||esDivisible%7===0 ){
+    console.log(document.write(`el número "${esDivisible}" sí es divisible por 2/3/5 o 7.<br> <br>`));
+}else{
+    console.log(document.write(`el número "${esDivisible}" no es divisible por 2/3/5 ni 7.<br> <br>`));
+}   
+document.write(`★★★★★★★★ <br> <br>`)
 
 //&  14. Añadir al ejercicio anterior que nos diga por cual de los cuatro es divisible (hay que decir todos por los que es divisible)
+
+let susDivisibles=[];
+let listadoDivisibles=[2,3,5,7];
+
+for(let i = 0; i < listadoDivisibles.length; i++) {
+    if (esDivisible%listadoDivisibles[i]===0){
+        susDivisibles.push(listadoDivisibles[i])
+    }    
+}
+if (susDivisibles.length > 0 ){
+    console.log(document.write(`el número "${esDivisible}" es divisible por: ${susDivisibles}.<br> <br>`));
+}
+document.write(`★★★★★★★★ <br> <br>`)
 
 //& 15. Escribir un programa que escriba en pantalla los divisores de un número dado
 
